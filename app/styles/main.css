@@ -87,7 +87,6 @@ body {
     border-bottom: 0;
   }
 }
-
   .back {
     background-image: url("../images/back.jpg");
     width: 100%;
@@ -95,45 +94,48 @@ body {
     margin-top: -20px;
     padding-top: 10%;
   }
-
   .p {
     color: white;
   }
-
   .secondback {
     background-image: url('../images/liu.png');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 500px;
-    width: 30%;
-    margin-left: -6.1%;
-    padding-top: 5%;
+    width:400px;
+    position: relative;
+    left: 445px;
+    padding-top: 90px;
     float: left;
   }
 
   .backleft {
-    width: 32%;
-    height: 41%;
+    width: 430px;
+    height: 350px;
     background-size: cover;
     background-image: url("../images/left.png");
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     z-index: 99999;
-    float: left;
-    margin-left: 8%;
-    margin-top: 8.8%;
+    margin-left: 100px;
+    margin-top: 118px;
   }
 
   .backright {
-    width: 32%;
-    height: 41%;
+    width: 430px;
+    height: 350px;
     background-size: cover;
     background-image: url("../images/right.png");
     background-repeat: no-repeat;
     position: relative;
     z-index: 99999;
-    float: left;
-    margin-left: -6.3%;
-    margin-top: 8.8%;
+    left: 760px;
+    margin-top: 118px;
+  }
+  .viewback{
+    background-image: url("../images/viewback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1094px;
   }
 

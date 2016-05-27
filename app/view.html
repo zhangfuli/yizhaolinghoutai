@@ -28,29 +28,36 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="container">
+<div class="container viewback">
   <div align="center">
-    <h1>失物招领</h1>
-    <p>Lost and found</p>
+    <h1 class="p">失物招领</h1>
+    <p class="p">Lost and found</p>
   </div>
-  <div class="row marketing">
+  <div class="row marketing ">
     <table class="table">
       <thead class="table-striped">
       <tr>
-        <td><p class="lead">时间</p></td>
-        <td><p class="lead">Id</p></td>
-        <td><p class="lead">标题</p></td>
-        <td><p class="lead">详细信息</p></td>
-        <td><p class="lead">更改状态</p></td>
+        <td><p class="lead p">时间</p></td>
+        <td><p class="lead p">Id</p></td>
+        <td><p class="lead p">标题</p></td>
+        <td><p class="lead p">详细信息</p></td>
+        <td><p class="lead p">更改状态</p></td>
       </tr>
       </thead>
       <tbody id="tbody">
       <tr>
-        <td></td>
-        <td>11</td>
-        <td>11</td>
-        <td>11</td>
-        <td>0</td>
+        <td class="p"></td>
+        <td class="p">11</td>
+        <td class="p">11</td>
+        <td class="p">11</td>
+        <td class="p">1</td>
+      </tr>
+      <tr>
+        <td class="p"></td>
+        <td class="p">11</td>
+        <td class="p">11</td>
+        <td class="p">11</td>
+        <td class="p">0</td>
       </tr>
       </tbody>
     </table>
@@ -61,15 +68,15 @@
     for(var i=0;i<rows.length;i++) {
       var cell = rows[i].cells[4];
       if (cell.innerHTML == 0) {
-        cell.innerHTML="未提交";
+        cell.innerHTML="未找到主人";
       } else{
-        cell.innerHTML="已提交";
+        cell.innerHTML="已找到主人";
       }
     }
   </script>
-  <div class="footer">
-    <p>易班技术部</p>
-  </div>
+</div>
+<div class="footer" align="center">
+  <p>易班技术部</p>
 </div>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
